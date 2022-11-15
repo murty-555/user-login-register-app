@@ -1,11 +1,10 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
     <div>
-      <center>
-        <h1>User Authentication App</h1>
-      </center>
+      <Header />
     </div>
   );
 }
