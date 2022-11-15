@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <center>
-        <h1>User Authentication App</h1>
+        <h1>User Authentication</h1>
       </center>
     </div>
   );
