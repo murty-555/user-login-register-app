@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import classes from "./Header.module.css";
 
@@ -9,13 +10,13 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="/">User Profile</a>
+            <Link to="/">User Profile</Link>
           </li>
           <li>
-            <a href="/">Total Users</a>
+            <Link to="/users">Total Users</Link>
           </li>
           <li>
-            <a href="/">New User</a>
+            <Link to="/">New User</Link>
           </li>
           <button>Logout</button>
         </ul>
