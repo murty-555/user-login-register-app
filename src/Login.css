@@ -1,0 +1,36 @@
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+      border: 1px solid whitesmoke;
+      border-radius: 10px;
+      margin: 0.5rem;
+      width:25vw;
+  }
+
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(100, 106, 103);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    border-style:double;
+  }
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
