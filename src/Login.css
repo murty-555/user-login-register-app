@@ -1,4 +1,7 @@
 
+body{
+    color: white;
+}
 .auth-form-container, .login-form, .register-form {
     display: flex;
     flex-direction: column;
@@ -31,16 +34,21 @@
   
   button {
     border: none;
-    background-color: rgb(100, 106, 103);
-    padding: 20px;
+    background-color:honeydew;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     color: black;
-    border-style:double;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
   }
   
   .link-btn {
     background: none;
     color: white;
     text-decoration: underline;
+  }
+  .h2,.p{
+    color: white;
   }
