@@ -41,7 +41,7 @@ function Registration() {
   
 
   return (
-    <>
+    <div className="bg-container">
  
         <div className="container">
           
@@ -103,7 +103,7 @@ function Registration() {
           
         </div>
     
-    </>
+    </div>
   );
 }
 
