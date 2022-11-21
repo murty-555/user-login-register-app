@@ -1,8 +1,15 @@
+.users-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
 .users{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #b7baba;
+    background: white;
     height: 100vh;
 }
 
@@ -11,7 +18,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
+    background: darkcyan;
+    color: white;
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 10px;

@@ -1,54 +1,58 @@
-
-body{
-    color: white;
+.login-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
-.auth-form-container, .login-form, .register-form {
-    display: flex;
-    flex-direction: column;
-      border: 1px solid whitesmoke;
-      border-radius: 10px;
-      margin: 0.5rem;
-      width:25vw;
-      background-color: darkcyan;
-      text-align: center;
-  }
-  .auth-form-container{
-    width: 35vw;
-  }
-  .register-form{
-    margin-left: 5rem;
-    padding: 1rem;
-  }
+
+.login-form-container{
+  width: 35vw;
+  color: white;
+  border-radius: 10px;
+  background-color: darkcyan;
+  text-align: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.login-form{
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  width:25vw;
+  display: flex;
+  flex-direction: column;
+}
 
   
-  label {
-    text-align: left;
-    padding: 0.25rem 0;
-  }
+.login-form label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
   
-  input {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border-radius: 10px;
-  }
+.login-form input {
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}
   
-  button {
-    border: none;
-    background-color:honeydew;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: black;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-  }
+.login-button {
+  border: none;
+  background-color:#ffa600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
   
-  .link-btn {
-    background: none;
-    color: white;
-    text-decoration: underline;
-  }
-  .h2,.p{
-    color: white;
-  }
+.register-link {
+  color: #ffa600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+  

@@ -10,15 +10,17 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">User Profile</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/users">Total Users</Link>
           </li>
           <li>
-            <Link to="/">New User</Link>
+            <Link to="/register">New User</Link>
           </li>
-          <button>Logout</button>
+          <Link to="/">
+            <button>Logout</button>
+          </Link>
         </ul>
       </nav>
     </header>
