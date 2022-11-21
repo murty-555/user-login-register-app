@@ -4,9 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3c0080;
+    background-color: darkcyan;
     color: white;
     padding: 0 10%;
+    height: 10vh;
   }
   
   .header ul {
@@ -29,7 +30,7 @@
   
   .header a:hover,
   .header a:active {
-    color: #b864da;
+    color: #ffbb00;
   }
   
   .header button {
@@ -37,6 +38,7 @@
     background-color: #ffbb00;
     border: 1px solid #ffbb00;
     padding: 0.5rem 1.5rem;
+    cursor: pointer;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     color: #2c2922;
   }
